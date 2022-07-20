@@ -103,8 +103,8 @@ def RandomList(n):
 
 def brithAttack():
     list_r_value = []
-    list_r = RandomList(pow(2,4))
-    for i in range(pow(2,4)):
+    list_r = RandomList(pow(2,16))
+    for i in range(pow(2,16)):
         m = TC(str(list_r[i]))
         M = Group(m)
         Vn=SM3(M)
