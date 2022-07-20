@@ -103,15 +103,15 @@ def RandomList(n):
 
 def brithAttack():
     list_r_value = []
-    list_r = RandomList(pow(2,2))
-    for i in range(pow(2,2)):
+    list_r = RandomList(pow(2,4))
+    for i in range(pow(2,4)):
         m = TC(str(list_r[i]))
         M = Group(m)
         Vn=SM3(M)
         aa=""
         for x in Vn:
             aa += hex(x)[2:]
-        list_r_value.append(aa[:2])
+        list_r_value.append(aa[:8])
 
     print(list_r_value)
     coincide = dict(Counter(list_r_value))
