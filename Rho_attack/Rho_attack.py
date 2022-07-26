@@ -1,4 +1,3 @@
-import SM31
 import random
 import string
 import math
@@ -106,7 +105,7 @@ def RhoAttack():
             aa += hex(x)[2:]
         bb=aa[:1]
         if(bb in list_r_value):
-            print("chenggong")
+            print("攻击成功")
             break
         else:
             list_r_value.append(bb)
