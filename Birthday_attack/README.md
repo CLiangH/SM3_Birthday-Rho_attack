@@ -15,7 +15,8 @@
 
 可直接运行
 
-运行截图=
+运行截图
+=
 
-！[image]()
+![image](https://github.com/CLiangH/Picture/blob/main/birthday.png)
 
